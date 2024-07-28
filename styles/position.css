@@ -1,0 +1,112 @@
+
+body{
+    margin: 0;
+    background-color: rgb(210, 246, 234);
+}
+.wraper{
+    display: flex;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.yellow_child{
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.gray_child{
+    background-color: gray;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 75px;
+    top: 75px;
+}
+.text_child{
+    color: white;
+    margin: 0;
+    position: absolute;
+    bottom: 70px;
+    right: 60px;
+}
+.yellow_bro{
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 400px;
+    top: 100px;
+}
+
+.gray_bro{
+background-color: gray;
+width: 150px;
+height: 150px;
+position:fixed;
+left: 485px;
+top: 175px;
+
+}
+.text_bro{
+    color: white;
+    margin: 0;
+    position: relative;
+    left: 235px;
+    top: 240px;
+}
+.window{
+    background-color: rgb(244, 244, 162);
+    border: 25px yellow solid;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow:scroll;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 473px; 
+    top: 100px;
+
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    padding-bottom: 5px;
+    background-color: rgb(244, 244, 162);
+    text-align: center;
+}
+.t-sticky::after {
+    content: '🙂';
+}
+
+.scroll{
+padding-bottom: 250px;
+text-align: center;
+}
+.window-2{
+    background-color: rgb(244, 244, 162);
+    border: 25px yellow solid;
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow:scroll;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 573px; 
+    top: 100px;
+}
+.fixed{
+    position: fixed;
+    top: 125px;
+    width: 223px;
+    padding-bottom: 5px;
+    background-color: rgb(244, 244, 162);
+    text-align: center;
+}
+.t-fixed::after{
+    content: '🔨';
+}
