@@ -75,6 +75,7 @@ top: 175px;
     position: sticky;
     top: 0;
     padding-bottom: 5px;
+    margin: 0;
     background-color: rgb(244, 244, 162);
     text-align: center;
 }
@@ -106,6 +107,7 @@ text-align: center;
     padding-bottom: 5px;
     background-color: rgb(244, 244, 162);
     text-align: center;
+    margin: 0;
 }
 .t-fixed::after{
     content: '🔨';
